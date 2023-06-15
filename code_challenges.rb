@@ -9,3 +9,10 @@ else
 end
 
 puts "Thank you!"
+
+# age = 24
+# if age % 2 == 0
+#   puts "even"
+# else
+#   puts "odd"
+# end
