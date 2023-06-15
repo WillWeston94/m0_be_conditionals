@@ -1,4 +1,4 @@
-good_driving_record = true
+good_driving_record = false
 age = 24
 
 if good_driving_record == true && age >= 24
