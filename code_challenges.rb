@@ -1,7 +1,11 @@
-age = 28
+puts "Please enter a whole number:"
 
-if age % 2 == 0
+input = gets.to_i
+
+if input % 2 == 0
     puts "even"
 else 
     puts "odd"
 end
+
+puts "Thank you!"
