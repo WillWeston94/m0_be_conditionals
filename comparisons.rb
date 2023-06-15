@@ -100,6 +100,6 @@ puts loves_to_play && loves_dog_park
 puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-puts loves_to_play && age = 1
+puts loves_to_play && is_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER: The final line of code technically needs to be fixed as the age is set to 1 but doesnt verify the variable for puppy
+# ANSWER: The final line of code technically needs to be fixed as the age is set to 1 but doesnt verify the variable for is_puppy.
