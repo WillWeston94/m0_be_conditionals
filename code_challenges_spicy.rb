@@ -1,4 +1,8 @@
 puts "Please enter a whole number:"
+puts "If divisible by 3 and 5 Fizzbuzz will appear"
+puts "If divisible by 3, Fizz will appear"
+puts "If divisible by 5, Buzz will appear"
+puts "If not divisible by 3 or 5, number you entered will appear"
 
 input = gets.to_i
 
