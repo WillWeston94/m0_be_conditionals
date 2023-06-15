@@ -7,6 +7,7 @@
 # Make sure to run the file in your command line. Look back
 # at the directions from Section 1 if you need a refresher on how to do that.
 
+# Initialize for Weston 
 
 #-------------------
 # PART 1: Comparing variables
@@ -53,21 +54,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Is 4 less than 9? Will print true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: books = 3 as an integer. Is 4 less than books which is equal to 3? Will print false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: friends = 6 as an integer. siblings = 2 as an integer. Is friends greater than siblings? Will print true. 
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: attendees = 9 as integer. meals = 8 as an integer. Is attendees NOT EQUAL to meals? Will print "true" as 9 Does Not Equal 8.
 
 
 #-------------------
@@ -90,15 +91,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
