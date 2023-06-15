@@ -1,5 +1,5 @@
-good_driving_record = false
-age = 19
+good_driving_record = true
+age = 25
 
 if good_driving_record == true && age >= 25
     puts "Discount on car rental granted"
